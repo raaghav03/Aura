@@ -8,7 +8,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className="flex h-screen">
         <Sidebar />
-        <main className="flex-1 p-4">{children}</main>
+        <main className="flex-1 p-4 bg-gray-50">{children}</main>
       </body>
     </html>
   );

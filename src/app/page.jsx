@@ -1,8 +1,28 @@
+import Card from "./components/card";
+
 export default function Page() {
   return (
     <>
-      <h1 className="text-black">Hello, main Page!</h1>
-      <div className="border-8 border-sky-500">hwhahsahshahs</div>
+      <div className="grid gap-4 grid-cols-3">
+        <Card>
+          <p>$12345</p>
+          <p>$12345</p>
+          <p>$12345</p>
+          <p>$12345</p>
+          <p>$12345</p>
+          <p>$12345</p>
+          <p>$12345</p>
+          <p>$12345</p>
+          <p>$12345</p>
+          <p>$12345</p>
+        </Card>
+        <Card>
+          <p>$12345</p>
+        </Card>
+        <Card>
+          <p>$12345</p>
+        </Card>
+      </div>
     </>
   );
 }
