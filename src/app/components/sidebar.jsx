@@ -2,7 +2,8 @@
 // components/Sidebar.jsx
 export default function Sidebar() {
   return (
-    <aside className="bg-gray-200 w-[14vw] p-4">
+    <div className="bg-gray-200 w-[14vw] p-4  h-screen top-0 left-0" >
+      {/* fixed top-0 left-0 z-40 w-64 h-screen */}
       <nav>
         <ul className="space-y-2">
           <li>
@@ -24,6 +25,6 @@ export default function Sidebar() {
           {/* Add more links as needed */}
         </ul>
       </nav>
-    </aside>
+    </div>
   );
 }
